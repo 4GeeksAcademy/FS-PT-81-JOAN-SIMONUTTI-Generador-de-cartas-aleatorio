@@ -1,1 +1,53 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: yellowgreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  background: linear-gradient(to right, blue, red);
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carta {
+  width: 234px;
+  height: 359px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px 10px 50px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#valorCarta {
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  font-family: serif;
+}
+
+#paloSup {
+  font-size: 4rem;
+  padding-left: 15px;
+}
+
+#paloInf {
+  transform: rotate(180deg);
+  font-size: 4rem;
+  padding-left: 15px;
+}
+
+.red {
+  color: red;
+}
